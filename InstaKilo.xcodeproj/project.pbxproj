@@ -14,6 +14,9 @@
 		BDD011051B5828BD0012C6A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD011041B5828BD0012C6A6 /* Images.xcassets */; };
 		BDD011081B5828BD0012C6A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDD011061B5828BD0012C6A6 /* LaunchScreen.xib */; };
 		BDD011141B5828BD0012C6A6 /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD011131B5828BD0012C6A6 /* InstaKiloTests.m */; };
+		BDD0111F1B582B480012C6A6 /* InstaKiloCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD0111E1B582B480012C6A6 /* InstaKiloCollectionViewCell.m */; };
+		BDD011221B58300A0012C6A6 /* InstaKilo.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD011211B58300A0012C6A6 /* InstaKilo.m */; };
+		BDD011281B58640D0012C6A6 /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD011271B58640D0012C6A6 /* HeaderCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		BDD0110D1B5828BD0012C6A6 /* InstaKiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD011121B5828BD0012C6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD011131B5828BD0012C6A6 /* InstaKiloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKiloTests.m; sourceTree = "<group>"; };
+		BDD0111D1B582B480012C6A6 /* InstaKiloCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaKiloCollectionViewCell.h; sourceTree = "<group>"; };
+		BDD0111E1B582B480012C6A6 /* InstaKiloCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaKiloCollectionViewCell.m; sourceTree = "<group>"; };
+		BDD011201B58300A0012C6A6 /* InstaKilo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaKilo.h; sourceTree = "<group>"; };
+		BDD011211B58300A0012C6A6 /* InstaKilo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaKilo.m; sourceTree = "<group>"; };
+		BDD011261B58640D0012C6A6 /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		BDD011271B58640D0012C6A6 /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +92,18 @@
 			children = (
 				BDD010FB1B5828BD0012C6A6 /* AppDelegate.h */,
 				BDD010FC1B5828BD0012C6A6 /* AppDelegate.m */,
+				BDD011041B5828BD0012C6A6 /* Images.xcassets */,
+				BDD011201B58300A0012C6A6 /* InstaKilo.h */,
+				BDD011211B58300A0012C6A6 /* InstaKilo.m */,
+				BDD0111D1B582B480012C6A6 /* InstaKiloCollectionViewCell.h */,
+				BDD011261B58640D0012C6A6 /* HeaderCollectionReusableView.h */,
+				BDD011271B58640D0012C6A6 /* HeaderCollectionReusableView.m */,
+				BDD0111E1B582B480012C6A6 /* InstaKiloCollectionViewCell.m */,
+				BDD011061B5828BD0012C6A6 /* LaunchScreen.xib */,
+				BDD011011B5828BD0012C6A6 /* Main.storyboard */,
+				BDD010F71B5828BD0012C6A6 /* Supporting Files */,
 				BDD010FE1B5828BD0012C6A6 /* ViewController.h */,
 				BDD010FF1B5828BD0012C6A6 /* ViewController.m */,
-				BDD011011B5828BD0012C6A6 /* Main.storyboard */,
-				BDD011041B5828BD0012C6A6 /* Images.xcassets */,
-				BDD011061B5828BD0012C6A6 /* LaunchScreen.xib */,
-				BDD010F71B5828BD0012C6A6 /* Supporting Files */,
 			);
 			path = InstaKilo;
 			sourceTree = "<group>";
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD011281B58640D0012C6A6 /* HeaderCollectionReusableView.m in Sources */,
 				BDD011001B5828BD0012C6A6 /* ViewController.m in Sources */,
+				BDD0111F1B582B480012C6A6 /* InstaKiloCollectionViewCell.m in Sources */,
 				BDD010FD1B5828BD0012C6A6 /* AppDelegate.m in Sources */,
 				BDD010FA1B5828BD0012C6A6 /* main.m in Sources */,
+				BDD011221B58300A0012C6A6 /* InstaKilo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
